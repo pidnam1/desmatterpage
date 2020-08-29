@@ -1,4 +1,7 @@
 alabaster==0.7.12
+anaconda-client==1.7.2
+anaconda-navigator==1.9.12
+anaconda-project==0.8.3
 applaunchservices==0.2.1
 appnope==0.1.0
 appscript==1.0.1
@@ -24,6 +27,10 @@ bokeh==1.4.0
 boto==2.49.0
 Bottleneck==1.3.2
 certifi==2019.11.28
+cffi==1.14.0
+chardet==3.0.4
+Click==7.0
+cloudpickle==1.3.0
 clyent==1.2.2
 colorama==0.4.3
 conda==4.8.4
@@ -169,6 +176,7 @@ pyobjc-framework-Collaboration==6.2.2
 pyobjc-framework-ColorSync==6.2.2
 pyobjc-framework-Contacts==6.2.2
 pyobjc-framework-ContactsUI==6.2.2
+pyobjc-framework-CoreAudio==6.2.2
 pyobjc-framework-CoreAudioKit==6.2.2
 pyobjc-framework-CoreBluetooth==6.2.2
 pyobjc-framework-CoreData==6.2.2
