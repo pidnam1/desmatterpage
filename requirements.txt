@@ -140,9 +140,6 @@ pydocstyle==4.0.1
 pyflakes==2.1.1
 Pygments==2.5.2
 pylint==2.4.4
-pyobjc==6.2.2
-pyobjc-framework-Accounts==6.2.2
-pyobjc-framework-AdSupport==6.2.2
 pyodbc===4.0.0-unsupported
 pyOpenSSL==19.1.0
 pyparsing==2.4.6
