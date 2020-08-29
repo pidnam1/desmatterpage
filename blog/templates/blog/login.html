@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+<body>
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <h2>Log In</h2>
+  <form method="post">
+    {% csrf_token %}
+
+    {% include 'includes/form.html' %}
+    <button type="submit" class="btn btn-primary">Log In</button>
+  </form>
+<div class="card-footer text-muted text-center">
+            New to The Portal? <a href="{% url 'signup' %}">Sign up</a>
+          </div>
+ <div class="text-center py-2">
+          <small>
+            <a href="{% url 'password_reset' %}" class="text-muted">Forgot your password?</a>
+          </small>
+        </div>
+</body>
+{% endblock %}

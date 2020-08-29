@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<body>
+<h2>Sign up for a free account</h2>
+<p>Choose which type of account you need to sign up for</p>
+<a href="{% url 'manufacturer_signup' %}" class="btn btn-primary">Manufacturer</a>
+<a href="{% url 'company_signup' %}" class="btn btn-primary">Company</a>
+
+</body>
+{% endblock %}
